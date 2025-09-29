@@ -98,7 +98,7 @@ const ALL_CARS: Car[] = [
 const CATEGORIES = Array.from(new Set(ALL_CARS.map((c) => c.category)));
 
 // ---------------- Component ----------------
-export default function RidesPage(): JSX.Element {
+export default function RidesPage(){
   // ---------------- State ----------------
   const [pickup, setPickup] = useState("");
   const [destination, setDestination] = useState("");
