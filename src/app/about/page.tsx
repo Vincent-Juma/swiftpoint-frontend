@@ -5,9 +5,9 @@ export const metadata = {
   };
   
   import Link from "next/link";
-  
-  export default function AboutPage(): JSX.Element {
-    return (
+
+export default function AboutPage() {
+  return (
       <main className="bg-gray-50 min-h-screen">
         {/* HERO */}
         <section className="bg-gradient-to-r from-blue-700 to-indigo-600 text-white py-16">
